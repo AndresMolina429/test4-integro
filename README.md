@@ -16,6 +16,9 @@ Repositorio: <h2>django</h2>
 ---
 
 
-<h1>Comandos de ejecución:</h1>
+<h1>Ejecución:</h1>
+Desde el directorio raíz ejecutar los siguientes comandos
 <h2>docker-compose build <br>
 docker-compose up</h2>
+
+Esto realizará el despliegue de la aplicación react en http://localhost:3000
