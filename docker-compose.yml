@@ -1,0 +1,15 @@
+version: "3"
+services:
+  django:
+    build:
+      context: ./django
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+
+  react:
+    build:
+      context: ./react
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
